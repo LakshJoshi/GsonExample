@@ -1,0 +1,9 @@
+{
+  "college": "GMIT",
+  "department": "Information Technology",
+  "faculty": {
+    "dept": "IT",
+    "f_name": "Mr. Prashant Sahatiya"
+  },
+  "name": "Laksh Joshi"
+}

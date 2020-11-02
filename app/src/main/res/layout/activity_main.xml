@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC300 "
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_centerVertical="true"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+        >
+        <EditText
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"
+
+        android:id="@+id/e1"
+        android:layout_marginTop="25dp"
+        android:hint="your good name"
+
+        />
+
+            <EditText
+                android:layout_width="360dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+
+                android:id="@+id/e2"
+                android:layout_below="@id/e1"
+                android:layout_marginTop="14dp"
+                android:hint="department"
+                />
+
+            <EditText
+                android:layout_width="360dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="18dp"
+                android:id="@+id/e3"
+                android:layout_marginTop="14dp"
+                android:layout_below="@+id/e2"
+                android:hint="college name"
+
+                />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_alignRight="@id/e3"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/e3"
+        android:id="@+id/btn"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
